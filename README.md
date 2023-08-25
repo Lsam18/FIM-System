@@ -19,14 +19,14 @@ Follow these steps to set up and run the FIM system in your own environment:
 
 ```bash
 git clone https://github.com/Lsam18/File-Integrity-Monitor-FIM-.git
-cd File-Integrity-Monitor-FIM-
+cd FIM-System
 ```
 
 # Step 2: Collect Baseline
 
 1. Run the following command to delete any existing baseline file:
    ```powershell
-   .\PowerShell Scripting-FIM (File Integrity Monitor)-main-.ps1 -Option 1
+   .\FIM-System.ps1 -Option 1
    ```
 
 2. The script will prompt you to confirm the deletion of the existing baseline file. Type 'Y' and press Enter.
@@ -37,7 +37,7 @@ cd File-Integrity-Monitor-FIM-
 
 1. Run the following command to start monitoring files using the saved baseline:
    ```powershell
-   .\File-Integrity-Monitor-FIM-.ps1 -Option 2
+   .\FIM-System.ps1 -Option 2
    ```
 
 2. The system will continuously monitor the target folder for any changes to files. You'll be alerted if new files are created, files are modified, or files are deleted.
