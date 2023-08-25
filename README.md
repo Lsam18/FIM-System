@@ -13,6 +13,7 @@ Follow these steps to set up and use the FIM system on your local machine:
 
 ### Prerequisites
 
+- Macintosh operating system
 - Windows operating system
 - PowerShell (Version 5.1 or higher)
 
@@ -69,6 +70,10 @@ Follow these steps to set up and use the FIM system on your local machine:
 🔵 Blue: Files remain unchanged.
 🟣 Magenta: Files have been modified.
 🔴 Dark Red: Files have been deleted.
+
+## To interupt the running script hit: 
+
+(ctrl + C) ## mac os | ( ctrl + Break ) ## Windows 
 
 ## Support and Feedback
 
