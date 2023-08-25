@@ -57,6 +57,8 @@ Follow these steps to set up and use the FIM system on your local machine:
    - The system will continuously track changes to files in the "files" folder.
    - You'll receive notifications for new files, unchanged files, modified files, and deleted files.
 
+## Feel free to add your own files to the `files` folder  and create a new baseline.      
+
 ### Folder Structure
 
 - **"PowerShell Scripting-FIM (File Integrity Monitor)-main":** Main folder containing the FIM system.
