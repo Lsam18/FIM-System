@@ -29,7 +29,7 @@ Follow these steps to set up and use the FIM system on your local machine:
 
 2. **Navigate to the Sub Folder:**
    ```
-   cd PowerShell Scripting-FIM (File Integrity Monitor)-main
+   cd "PowerShell Scripting-FIM (File Integrity Monitor)-main"
    ```
 
 ### Usage
