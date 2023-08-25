@@ -22,9 +22,12 @@ Follow these steps to set up and use the FIM system on your local machine:
    ```
    git clone https://github.com/Lsam18/FIM-System.git
    
-   ```
+2. Direct to the Folder FIM-SYSTEM
+```
+ cd FIM-System
+```
 
-2. **Navigate to the Main Folder:**
+2. **Navigate to the Sub Folder:**
    ```
    cd PowerShell Scripting-FIM (File Integrity Monitor)-main
    ```
