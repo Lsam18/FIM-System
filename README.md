@@ -5,59 +5,73 @@ File Integrity Monitoring: Create baselines and continuously track file changes 
 
 # File Integrity Monitoring (FIM) System
 
-Welcome to the File Integrity Monitoring (FIM) system! This open-source project is designed to help you monitor the integrity of your important files and detect any unauthorized changes. Whether you're a cybersecurity enthusiast or a threat hunter, this tool will provide you with real-time alerts when file modifications occur.
+Welcome to the File Integrity Monitoring (FIM) System repository! This tool helps you monitor the integrity of your files, safeguarding your digital assets against unauthorized changes. Whether you're a cybersecurity enthusiast or just curious about maintaining data security, this tool is for you.
 
-# Getting Started
+## Getting Started
 
-Follow these steps to set up and run the FIM system in your own environment:
+Follow these steps to set up and use the FIM system on your local machine:
 
-# Prerequisites
+### Prerequisites
 
-- Make sure you have PowerShell installed on your system.
+- Windows operating system
+- PowerShell (Version 5.1 or higher)
 
-# Step 1: Clone the Repository
+### Installation
 
-```bash
-git clone https://github.com/Lsam18/FIM-System.git
-```
-
-```Direct to the directory
-cd FIM-System
-```
-
-# Step 2: Collect Baseline
-
-1. Run the following command to delete any existing baseline file:
-   ```powershell
-   .\FIM-System.ps1 -Option 1
+1. **Clone the Repository:**
+   ```
+   git clone https://github.com/Lsam18/FIM-System.git
+   
    ```
 
-2. The script will prompt you to confirm the deletion of the existing baseline file. Type 'Y' and press Enter.
-
-3. The script will now calculate hash values for files in the target folder and create a new baseline file called `original_hashcodes.txt`.
-
-### Step 3: Monitor Files
-
-1. Run the following command to start monitoring files using the saved baseline:
-   ```powershell
-   .\FIM-System.ps1 -Option 2
+2. **Navigate to the Main Folder:**
+   ```
+   cd PowerShell Scripting-FIM (File Integrity Monitor)-main
    ```
 
-2. The system will continuously monitor the target folder for any changes to files. You'll be alerted if new files are created, files are modified, or files are deleted.
+### Usage
 
-3. Keep the script running in your PowerShell terminal to receive real-time alerts.
+1. **Baseline Creation:**
 
-## Acknowledgments
+   - Run PowerShell as an administrator.
+   - Execute the `fim.ps1` script:
+     ```
+     .\fim.ps1
+     ```
+   - Choose option 1 to create a baseline of your files' hash values.
+   - This will calculate and store hash codes of all files in the "files" folder.
+   - The baseline will be saved in `original_hashcodes.txt`.
 
-A big thank you to the @security blue team for their valuable insights and contributions. Your expertise has been instrumental in the development of this FIM system.
+2. **Monitoring Files:**
 
-## Contributing
+   - Run PowerShell as an administrator.
+   - Execute the `fim.ps1` script:
+     ```
+     .\fim.ps1
+     ```
+   - Choose option 2 to begin monitoring files with the saved baseline.
+   - The system will continuously track changes to files in the "files" folder.
+   - You'll receive notifications for new files, unchanged files, modified files, and deleted files.
 
-I welcome contributions to improve and enhance this project. Feel free to fork the repository, make your changes, and submit a pull request.
+### Folder Structure
 
-## License
+- **"PowerShell Scripting-FIM (File Integrity Monitor)-main":** Main folder containing the FIM system.
+  - **"files":** Contains sample files to test the FIM system.
+  - **"fim.ps1":** PowerShell script for baseline creation and monitoring.
+  - **"original_hashcodes.txt":** Stores the baseline hash codes.
 
-This project is licensed under the [MIT License](LICENSE).
+### Colors to identify each notification or insight
+
+🟢 Green: New files added.
+🔵 Blue: Files remain unchanged.
+🟣 Magenta: Files have been modified.
+🔴 Dark Red: Files have been deleted.
+
+## Support and Feedback
+
+If you encounter any issues or have suggestions, feel free to open an issue on the [GitHub repository] (https://github.com/Lsam18/FIM-System.git). Your feedback is valuable in improving the tool.
+
+Let's stay proactive in securing our digital assets together! 🛡️🔒
 
 ---
 
