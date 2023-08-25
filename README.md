@@ -18,7 +18,10 @@ Follow these steps to set up and run the FIM system in your own environment:
 # Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/Lsam18/File-Integrity-Monitor-FIM-.git
+git clone https://github.com/Lsam18/FIM-System.git
+```
+
+```Direct to the directory
 cd FIM-System
 ```
 
