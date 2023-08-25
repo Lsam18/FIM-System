@@ -26,7 +26,7 @@ cd File-Integrity-Monitor-FIM-
 
 1. Run the following command to delete any existing baseline file:
    ```powershell
-   .\File-Integrity-Monitor-FIM-.ps1 -Option 1
+   .\PowerShell Scripting-FIM (File Integrity Monitor)-main-.ps1 -Option 1
    ```
 
 2. The script will prompt you to confirm the deletion of the existing baseline file. Type 'Y' and press Enter.
